@@ -14,7 +14,7 @@ public class ReadingdatafromCommandtest {
 	System.out.println(PWD);
 
 }
-	@Test(groups="regression")
+	@Test(groups="rt")
 	public void regressiontest() {
 		System.out.println("regression test");
 	}
