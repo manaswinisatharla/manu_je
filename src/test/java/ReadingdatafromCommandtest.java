@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 public class ReadingdatafromCommandtest {
 
 	@Test(groups="smoke")
-	public void ReadingdatafromCommandtest() {
+	public void ReadingdataCommandtest() {
 		
 	String URL=	System.getProperty("url");
 	String UN=System.getProperty("username");
