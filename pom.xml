@@ -52,7 +52,7 @@
 				<configuration>
 					<!-- TestNG Suite XML files list for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>smoke.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -70,7 +70,7 @@
 				<configuration>
 					<!-- TestNG Suite XML files list for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>regression.xml</suiteXmlFile>
+						<suiteXmlFile>rt.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
