@@ -3,9 +3,11 @@
 <suite name="Suite">
 <groups>
 <run>
-<include name="smoke"></include>
-</run>
-</groups>
+<include name="regression">
+</include></run></groups>
   <test thread-count="5" name="Test">
+    <classes>
+      <class name=".ReadingdatafromCommandtest"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
